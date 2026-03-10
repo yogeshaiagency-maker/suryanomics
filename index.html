@@ -1,38 +1,39 @@
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
-<title>Suryanomics | Financial Planning</title>
-
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Suryanomics | Financial Planning</title>
 
 <style>
 
 body{
 margin:0;
-font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
-background:#f7f8fa;
-color:#1c1c1c;
+font-family: "Segoe UI", Arial, sans-serif;
+background:#f4f6f9;
+color:#1f2937;
 }
 
-.header{
-background:#0f172a;
+.hero{
+background:linear-gradient(120deg,#0f172a,#1e3a8a);
 color:white;
-padding:80px 20px;
+padding:90px 20px;
 text-align:center;
 }
 
-.header h1{
-font-size:46px;
-letter-spacing:1px;
+.hero h1{
+font-size:50px;
 margin:0;
+letter-spacing:1px;
 }
 
-.header p{
+.hero p{
 margin-top:15px;
-font-size:18px;
-opacity:0.8;
+font-size:20px;
+opacity:0.9;
 }
 
 .container{
@@ -43,36 +44,36 @@ padding:70px 25px;
 
 .section-title{
 text-align:center;
-margin-bottom:60px;
+margin-bottom:50px;
 }
 
 .section-title h2{
-font-size:32px;
-font-weight:600;
+font-size:34px;
+color:#0f172a;
 }
 
 .services{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:35px;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
 }
 
 .card{
 background:white;
 padding:35px;
-border-radius:10px;
-box-shadow:0 4px 14px rgba(0,0,0,0.06);
-transition:all 0.25s ease;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+text-align:center;
 }
 
-.card:hover{
-transform:translateY(-6px);
+.card img{
+width:60px;
+margin-bottom:20px;
 }
 
 .card h3{
-margin-top:0;
-font-size:20px;
-color:#111827;
+margin-bottom:10px;
+color:#1e3a8a;
 }
 
 .card p{
@@ -84,18 +85,22 @@ color:#555;
 .about{
 background:white;
 padding:45px;
-border-radius:10px;
-box-shadow:0 4px 14px rgba(0,0,0,0.06);
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
 line-height:1.7;
-font-size:16px;
+font-size:17px;
 }
 
 .contact{
-text-align:center;
-padding:70px 20px;
-background:#0f172a;
+background:#1e3a8a;
 color:white;
-margin-top:80px;
+text-align:center;
+padding:60px 20px;
+margin-top:70px;
+}
+
+.contact h2{
+margin-bottom:10px;
 }
 
 .contact p{
@@ -104,7 +109,7 @@ font-size:18px;
 
 .footer{
 background:#0b0b0b;
-color:#888;
+color:#aaa;
 text-align:center;
 padding:18px;
 font-size:14px;
@@ -116,8 +121,7 @@ font-size:14px;
 
 <body>
 
-
-<div class="header">
+<div class="hero">
 
 <h1>Suryanomics</h1>
 
@@ -126,12 +130,11 @@ font-size:14px;
 </div>
 
 
+
 <div class="container">
 
 <div class="section-title">
-
-<h2>Services</h2>
-
+<h2>Our Services</h2>
 </div>
 
 
@@ -139,23 +142,31 @@ font-size:14px;
 
 <div class="card">
 
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png">
+
 <h3>Mutual Fund Distribution</h3>
 
 <p>
-Structured mutual fund solutions designed to help investors build diversified
-portfolios aligned with long-term financial goals.
+
+Helping investors access diversified mutual fund solutions aligned with
+long-term financial goals and disciplined portfolio building.
+
 </p>
 
 </div>
 
 
 <div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/3050/3050153.png">
 
 <h3>Insurance Advisory</h3>
 
 <p>
-Comprehensive guidance on life and health protection strategies to ensure
-financial security for individuals and families.
+
+Guidance on life and health protection strategies designed to safeguard
+financial stability for individuals and families.
+
 </p>
 
 </div>
@@ -163,11 +174,15 @@ financial security for individuals and families.
 
 <div class="card">
 
+<img src="https://cdn-icons-png.flaticon.com/512/1087/1087840.png">
+
 <h3>Financial Planning</h3>
 
 <p>
+
 Goal-based financial planning covering retirement planning, education
-planning and long-term wealth discipline.
+planning and structured long-term wealth discipline.
+
 </p>
 
 </div>
@@ -179,26 +194,21 @@ planning and long-term wealth discipline.
 
 
 <div class="section-title">
-
 <h2>About Suryanomics</h2>
-
 </div>
-
 
 <div class="about">
 
-Suryanomics focuses on disciplined financial planning and practical wealth
-solutions designed for long-term financial stability.
+Suryanomics focuses on disciplined financial planning and structured
+wealth solutions designed for long-term financial well-being.
 
-The philosophy is simple — structured financial decisions, diversified
-investment exposure through mutual funds, and risk protection through
-appropriate insurance solutions.
+The approach emphasizes clarity, diversification and risk protection
+through mutual fund distribution and insurance solutions.
 
-The objective is to help individuals and families move towards financial
-clarity, financial protection, and long-term financial confidence.
+Our objective is to help individuals and families make informed financial
+decisions aligned with their life goals.
 
 </div>
-
 
 </div>
 
