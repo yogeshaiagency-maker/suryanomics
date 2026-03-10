@@ -2,71 +2,99 @@
 <html>
 <head>
 
-<title>Suryanomics | Financial Planning</title>
+<title>Suryanomics | Financial Planning & Wealth Solutions</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
 
 body{
-font-family: Arial, Helvetica, sans-serif;
-background:#f4f6fb;
 margin:0;
-padding:0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background:#f4f6fb;
+color:#333;
 }
 
 header{
-background:#1a237e;
+background:linear-gradient(135deg,#1a237e,#3949ab);
 color:white;
-padding:30px;
+padding:80px 20px;
 text-align:center;
 }
 
 header h1{
-margin:0;
-font-size:40px;
+font-size:48px;
+margin-bottom:10px;
 }
 
 header p{
-margin-top:10px;
-font-size:18px;
+font-size:20px;
+opacity:0.9;
 }
 
 .container{
-max-width:1000px;
+max-width:1100px;
 margin:auto;
-padding:40px;
+padding:60px 20px;
 }
 
-.section{
-background:white;
-padding:30px;
-margin-bottom:25px;
-border-radius:10px;
-box-shadow:0 2px 8px rgba(0,0,0,0.1);
+.section-title{
+text-align:center;
+margin-bottom:50px;
 }
 
-.section h2{
+.section-title h2{
+font-size:34px;
 color:#1a237e;
 }
 
 .services{
-display:flex;
-gap:20px;
-flex-wrap:wrap;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
 }
 
 .card{
-flex:1;
-min-width:250px;
-background:#f9fbff;
-padding:20px;
-border-radius:8px;
-border:1px solid #e2e6f0;
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+transition:0.3s;
 }
 
-.footer{
+.card:hover{
+transform:translateY(-6px);
+}
+
+.card h3{
+color:#1a237e;
+}
+
+.about{
+background:white;
+padding:40px;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+.about p{
+line-height:1.7;
+font-size:17px;
+}
+
+.contact{
+text-align:center;
+background:#1a237e;
+color:white;
+padding:50px 20px;
+margin-top:60px;
+}
+
+footer{
 text-align:center;
 padding:20px;
-color:#777;
+background:#111;
+color:#aaa;
 }
 
 </style>
@@ -74,6 +102,7 @@ color:#777;
 </head>
 
 <body>
+
 
 <header>
 
@@ -84,29 +113,15 @@ color:#777;
 </header>
 
 
+
 <div class="container">
 
+<div class="section-title">
 
-<div class="section">
-
-<h2>About Suryanomics</h2>
-
-<p>
-
-Suryanomics provides structured financial solutions for individuals and families
-seeking long-term financial stability and disciplined wealth creation.
-
-Our approach focuses on goal-based financial planning supported through
-mutual fund distribution, insurance solutions, and practical financial guidance.
-
-</p>
+<h2>Our Services</h2>
 
 </div>
 
-
-<div class="section">
-
-<h2>Our Services</h2>
 
 <div class="services">
 
@@ -115,47 +130,87 @@ mutual fund distribution, insurance solutions, and practical financial guidance.
 <h3>Mutual Fund Distribution</h3>
 
 <p>
-Helping investors access diversified mutual fund solutions aligned with
-their financial goals and investment horizon.
+
+Access diversified mutual fund solutions aligned with your financial goals,
+risk profile, and long-term wealth creation strategy.
+
 </p>
 
 </div>
+
 
 <div class="card">
 
 <h3>Insurance Advisory</h3>
 
 <p>
-Protection planning through life and health insurance solutions
-to safeguard financial security for families.
+
+Comprehensive insurance guidance covering life and health protection to
+secure financial stability for you and your family.
+
 </p>
 
 </div>
+
 
 <div class="card">
 
 <h3>Financial Planning</h3>
 
 <p>
-Goal-based planning for retirement, education, and long-term
-financial well-being.
+
+Goal-based financial planning for retirement, education planning,
+wealth protection, and disciplined financial growth.
+
 </p>
 
 </div>
 
-</div>
 
 </div>
 
 
-<div class="section">
+<br><br>
+
+
+<div class="section-title">
+
+<h2>About Suryanomics</h2>
+
+</div>
+
+
+<div class="about">
+
+<p>
+
+Suryanomics focuses on disciplined financial planning and structured wealth
+solutions designed for long-term financial well-being.
+
+Our approach emphasizes simplicity, transparency, and goal-based planning
+through diversified mutual fund distribution and protection solutions.
+
+We help individuals and families make informed financial decisions aligned
+with their life goals.
+
+</p>
+
+</div>
+
+
+</div>
+
+
+
+<div class="contact">
 
 <h2>Contact</h2>
 
 <p>
 
-<strong>Advisor:</strong> Yogesh Suryawanshi  
-<br>
+Yogesh Suryawanshi  
+<br><br>
+
 North Goa, India
 
 </p>
@@ -163,15 +218,14 @@ North Goa, India
 </div>
 
 
-</div>
 
+<footer>
 
-<div class="footer">
+© 2026 Suryanomics | Financial Planning & Advisory
 
-© 2026 Suryanomics
-
-</div>
+</footer>
 
 
 </body>
+
 </html>
